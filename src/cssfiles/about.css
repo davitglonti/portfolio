@@ -1,0 +1,10 @@
+.aboutinfo {
+    background-color: rgb(196, 186, 179);
+    display: flex;
+    flex-direction: row;
+}
+
+.abouttext {
+   position: relative;
+    top: 100px;
+}

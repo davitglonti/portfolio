@@ -1,0 +1,132 @@
+.pizzaimage {
+    width: 300px;
+    height: 200px;
+}
+
+.pizzacontainer {
+    display: grid;
+    grid-template-columns: auto auto auto  ;
+   
+    
+}
+.pizzaheader:hover {
+    background-color: #bfbeca;
+    margin: 50px 50px;
+}
+
+.pizzaheader {
+    border: 3px solid skyblue;
+    margin: 50px 50px;
+}
+.pizzabtn {
+    background-color: #2116be;
+    border: none;
+    color: white;
+    padding:10px 100px ;
+    margin-top: 10px;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+
+
+}
+.homehead {
+    height: 90vh;
+}
+
+.slider{
+   display: flex;
+}
+.sliderimage{
+    width: 100%;
+    height: 100vh;
+  
+    
+}
+.slidericon{
+    position: relative;
+    color: rgb(37, 39, 46);
+    font-size: 50px;
+  }
+ 
+  .iconleft{
+    position: absolute;
+    top:50%
+}
+.iconright{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.iconleft:hover{
+  transform: scale(1.1);
+}
+.iconright:hover{
+   transform: scale(1.1);
+}
+.slider {
+    display: grid;
+    grid-template-columns: auto ;
+   
+}
+.sliderinfo {
+    position: absolute;
+    top: 82%;
+    right: 20px;
+    color: chartreuse;
+    
+}
+.sliderbtn {
+    position: absolute;
+    top: 90%;
+    right:20px;
+    border: none;
+    background-color: rgb(204, 211, 212);
+    width: auto;
+    font-size: 40px;
+    display: inline-block;
+
+
+
+}
+@media screen and (max-width:900px){
+    .pizzacontainer {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    
+       
+    }
+    .pizzaheader {
+        border: 1px solid skyblue;
+      
+    }
+    .slidericon{
+      position: absolute;
+      color: rgb(37, 39, 46);
+      font-size: 50px;
+    }
+
+    .sliderimage{
+        width: 100%;
+        height: 70vh;
+       
+    }
+    .iconleft{
+        position: absolute;
+        top:35%
+    }
+    .iconright{
+        position: absolute;
+        top:35%;
+        right: 0;
+    }
+    .sliderinfo { 
+        position: absolute;
+        top: 60%;
+    }
+    .sliderbtn {
+        top:66%;
+    }
+}

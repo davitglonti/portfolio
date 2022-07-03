@@ -1,0 +1,81 @@
+
+
+.ingredients {
+    text-align: left;
+   background-color: blueviolet;
+   height: 300px;
+   width: 200px;
+   color: aliceblue;
+ margin-bottom: 30px;
+ animation: anim3 3000ms ease forwards;
+}
+
+.Method{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.pizzaimg {
+   width: 300px;
+   height: 200px;
+}
+
+.method {
+   position: relative;
+   right: 30%; 
+   animation: anim3 3000ms ease forwards;
+ 
+}
+@keyframes anim3 {
+    0% {
+        transform: scale(0.9);
+        opacity: 0.5;
+      }
+      25% {
+        transform: scale(0);
+        opacity: 0.5;
+      }
+    
+      
+    
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+  }
+  .line{ 
+    width: 112px;
+    height: 2px;
+    background-color: blueviolet;
+    padding: 0 20%;
+    
+  }
+  .line2{
+    width: 112px;
+    height: 2px;
+    background-color: rgb(49, 226, 43);
+    padding: 0 20%;
+    margin:0px 50%;
+     
+  }
+
+  @media only screen and (max-width: 600px) {
+    
+    .Method{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .ingredients{
+    position: relative;
+    left: 23%;
+    }
+    .method {
+      position: relative;
+      left: 1%;
+      font-size: 18px;
+      margin: 30px;
+    }
+  
+  }

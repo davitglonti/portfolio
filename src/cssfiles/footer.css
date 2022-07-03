@@ -1,0 +1,39 @@
+.footer {
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: white;
+    position: relative;
+    top: 10px;
+    
+}
+.footerfirst {
+    position: relative;
+    top: 20px;
+    margin-right: 100px;
+}
+.footerinfo{
+    color:rgba(85, 213, 172, 1);
+}
+
+.footerlist{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+a {
+    color:rgba(85, 213, 172, 1);
+    text-decoration: none;
+   
+
+}
+
+@media screen and (max-width:900px){
+    .footerheader {
+        font-size: 20px;
+    }
+    .footer{
+        bottom: 10px;
+    }
+   
+}
